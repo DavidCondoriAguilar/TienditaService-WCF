@@ -1,0 +1,9 @@
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\bin\Debug\pe.com.tienditaserviciowcf-dal.dll
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\bin\Debug\pe.com.tienditaserviciowcf-dal.pdb
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\bin\Debug\pe.com.tienditaserviciowcf.bo.dll
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\bin\Debug\pe.com.tienditaserviciowcf.bo.pdb
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\obj\Debug\pe.com.tienditaserviciowcf-dal.csproj.AssemblyReference.cache
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\obj\Debug\pe.com.tienditaserviciowcf-dal.csproj.CoreCompileInputs.cache
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\obj\Debug\pe.com.tienditaserviciowcf-dal.csproj.CopyComplete
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\obj\Debug\pe.com.tienditaserviciowcf-dal.dll
+C:\Users\DAVIDWILD\Desktop\ISIL- V\NET\laboratorio02-WCF\ServicioTienditaWCF\pe.com.tienditaserviciowcf-dal\obj\Debug\pe.com.tienditaserviciowcf-dal.pdb
