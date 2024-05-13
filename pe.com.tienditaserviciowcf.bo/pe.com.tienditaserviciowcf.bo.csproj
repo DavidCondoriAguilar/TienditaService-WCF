@@ -43,7 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BOCategoria.cs" />
+    <Compile Include="BODistrito.cs" />
+    <Compile Include="BOEmpleado.cs" />
     <Compile Include="BOProducto.cs" />
+    <Compile Include="BORol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="DALCategoria.cs" />
+    <Compile Include="DALEmpleado.cs" />
     <Compile Include="DALProducto.cs" />
+    <Compile Include="DALRol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

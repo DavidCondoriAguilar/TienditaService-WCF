@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace pe.com.tienditaserviciowcf.bo
 {
     [DataContract]
+    [Serializable]
     public class BOProducto
     {
         public int codigo { get; set; }

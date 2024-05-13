@@ -1,4 +1,5 @@
-﻿using pe.com.serviciotienditawcf.dal;
+﻿using pe.com.serviciotienditawcf.bo;
+using pe.com.serviciotienditawcf.dal;
 using pe.com.tienditaserviciowcf.bo;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ServicioTienditaWCF
 {
@@ -16,13 +18,15 @@ namespace ServicioTienditaWCF
     {
         DALCategoria dalcat = new DALCategoria();
         DALProducto dalpro = new DALProducto();
+        DALEmpleado dalemp = new DALEmpleado();
+        DALRol dalrol = new DALRol();
 
+        //-------------Categoria----------------------------------
 
         public List<BOCategoria> MostrarCategoria()
         {
             return dalcat.MostrarCategoria();
         }
-
         public List<BOCategoria> MostrarCategoriaTodo()
         {
             return dalcat.MostrarCategoriaTodo();
@@ -42,10 +46,9 @@ namespace ServicioTienditaWCF
         {
             return dalcat.EliminarCategoria(bc);
         }
+        //--------------------------------------------------------
 
-        //CATEGORIA
-
-
+        //---------------------- Producto -------------------------
         public List<BOProducto> MostrarProducto()
         {
             return dalpro.MostrarProducto();
@@ -70,5 +73,29 @@ namespace ServicioTienditaWCF
         {
             return dalpro.EliminarProducto(bc);
         }
+        //------------------------------------------------------
+
+        //---------------------- Producto -------------------------
+        public bool ValidarEmpleado(BOEmpleado be)
+        {
+            return dalemp.ValidarEmpleado(be);
+        }
+        //---------------------------------------------------------
+
+        //---------------------- Rol -------------------------
+        public async Task<List<BORol>> MostrarRolAsync()
+        {
+            return await dalrol.MostrarRolAsync();
+        }
+        public async Task<List<BORol>> MostrarRolTodoAsync()
+        {
+            return await dalrol.MostrarRolAsync();
+        }
+        public async Task<bool> RegistrarRolAsync(BOCategoria bc)
+        {
+            return await dalrol.RegistrarRolAsync(bc);
+        }
+        //---------------------------------------------------------
+
     }
 }

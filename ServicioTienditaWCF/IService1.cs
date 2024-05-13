@@ -1,4 +1,5 @@
-﻿using pe.com.tienditaserviciowcf.bo;
+﻿using pe.com.serviciotienditawcf.bo;
+using pe.com.tienditaserviciowcf.bo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ServicioTienditaWCF
 {
@@ -13,7 +15,8 @@ namespace ServicioTienditaWCF
     [ServiceContract]
     public interface IService1
     {
-        //CATEGORIA
+
+        //Categoria-----------------------------------------
         [OperationContract]
         List<BOCategoria> MostrarCategoria();
 
@@ -28,9 +31,9 @@ namespace ServicioTienditaWCF
 
         [OperationContract]
         bool EliminarCategoria(BOCategoria bc);
+        //--------------------------------------------------------
 
-        //PRODUCTO
-
+        //Producto------------------------------------------------
         [OperationContract]
         List<BOProducto> MostrarProducto();
 
@@ -44,9 +47,22 @@ namespace ServicioTienditaWCF
         bool ActualizarProducto(BOProducto bc);
 
         [OperationContract]
-
         bool EliminarProducto(BOProducto bc);
+        //----------------------------------------------------------
 
+        //Empleado------------------------------------------------
+        [OperationContract]
+        bool ValidarEmpleado(BOEmpleado be);
+        //----------------------------------------------------------
+
+        //rol------------------------------------------------
+        [OperationContract]
+        Task<List<BORol>> MostrarRolAsync();
+        [OperationContract]
+        Task<List<BORol>> MostrarRolTodoAsync();
+        [OperationContract]
+        Task<bool> RegistrarRolAsync(BOCategoria bc);
+        //----------------------------------------------------------
     }
 
 

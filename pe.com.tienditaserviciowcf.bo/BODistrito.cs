@@ -5,15 +5,15 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pe.com.tienditaserviciowcf.bo
+namespace pe.com.serviciotienditawcf.bo
 {
-    [Serializable]
     [DataContract]
-    public class BOCategoria
+    [Serializable]
+    public class BODistrito
     {
         [DataMember]
         public int codigo { get; set; }
-        [DataMember] 
+        [DataMember]
         public string nombre { get; set; }
         [DataMember]
         public bool estado { get; set; }
